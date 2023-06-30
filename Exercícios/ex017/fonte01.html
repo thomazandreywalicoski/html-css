@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas:
+            "cm" (centímetro)
+            "mm" (milímetro)
+            "in" (polegada)
+            "px" (pixel)
+            "pt" (ponto)
+            "pc" (paica)
+            
+            Medidas Relativas:
+            "em" (relativo ao tamanho natural da fonte)
+            "ex" (relativo a altura x da fonte)
+            "rem" (tipo em, mas relativo a fonte configurada no body)
+            "vw" (relativo a largura da view port)
+            "vh" (relativo a altura da view port)
+            "%" (porcentagem)
+
+            Recomendação W3C: "px" ou "em"
+
+            Altura Padrão: geralmente 16px ou 1em
+            */
+
+            /* 
+            font-size: 1em;
+            font-weight: bolder; (font-weigth= peso da fonte)
+            font-style: italic;
+            text-decoration: underline;
+            */
+            font: italic bolder 1em 'Work Sans', sans-serif;
+
+            /*
+            "Lighter, normal, bold, bolder"
+
+            Peso (negrito):
+
+            - Fonte mais cheia (negrito) ou fina
+            - Não serve para fontes simples (arial, verdana, times, ...)
+            - Serve para fontes como Work Sans (import google)
+
+            font-weigth: nome ou número
+
+            NOME:      NúMERO:
+            lighter    100, 500, 900
+            normal     200, 600
+            bold       300, 700
+            bolder     400, 800
+
+            Estilo (itálico)
+
+            font-style: valor;
+            normal
+            itálic
+
+            Decoração (sublinhado)
+
+            text-decoration: underline;
+
+            Shorthand font: simplificando fontes
+
+            Ex: font-family: 'Work Sans', sans-serif;
+                font- weight: bolder;
+                font-size: 3em;
+                font-style: italic;
+
+            Simplificando:
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+
+            A Sequência deve ser:
+
+            font-style -> font-weight -> font-size -> font-family;
+
+            - Não precisa ter todas as propriedades, mas a sequência deve ser seguida;
+
+            Ex: font: bold 2em 'Work Sans'
+
+            */
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eaque rerum beatae molestiae praesentium eveniet deleniti iusto! Ullam iusto doloribus quia et beatae. Eveniet iusto quo reiciendis rerum aperiam porro blanditiis cum, quis vitae voluptas repudiandae voluptatum velit nostrum ipsum quos amet? Commodi voluptates est itaque quod modi laborum, maxime quasi, laudantium iure voluptatum, nam veritatis ipsa ex eum? Fugit, ipsam consequatur, esse iusto temporibus maxime enim voluptatibus fugiat ullam repudiandae voluptates eum aliquam neque labore perspiciatis, expedita ipsa qui tempore aut soluta eius alias! Soluta, tenetur hic? Officiis aperiam, odio animi labore sapiente molestias? Ipsam molestiae pariatur quasi quis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facere ad commodi enim voluptate debitis quidem? Quasi saepe modi necessitatibus.</p>
+    <h2>Subtítulo do execício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente culpa perspiciatis sequi sint excepturi iste! Eaque suscipit impedit soluta quisquam quia harum perspiciatis illum magnam labore illo voluptates dolorem est dicta, dolorum neque. Quae consectetur praesentium necessitatibus laudantium impedit. Iste consectetur quod eligendi quo, voluptates autem facere nemo! Cumque, voluptatum!</p>
+</html>

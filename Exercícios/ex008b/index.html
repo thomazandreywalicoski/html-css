@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código Fonte / Pré-Formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem Javascript.</p>
+    <h3>Usando somente a tag CODE</h3>
+    <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'O número {num} é PAR')     
+        else:
+            print(f'O número {num} é ÍMPAR')
+            PRINT('Fim do programa')
+    </code>
+                             <!-- Usando somente a tag CODE não organiza seu código com identação, ou seja, todos os comandos ficam um do lado da outro -->
+    <h3>Envelopando a tag CODE em uma tag PRE</h3>
+    <pre>
+        <code>
+            num = int(input('Digite um número'))
+            if num % 2 == 0:
+                print(f'O número {num} é PAR')     
+            else:
+                print(f'O número {num} é ÍMPAR')
+            print('Fim do programa')
+        </code>
+    </pre>
+                             <!-- Para o comando ficar com identação (contando os espaços, quebras de linhas, tabulações, etc) você deve envelopar o tag CODE numa tag PRE -->
+    <h2>Citações Simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p> <!-- Quando você usar uma citação use a tag Q. A citacão toda fica na mesma linha -->
+    <h2>Citações Completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Construindo_Web_Sites_Para_Leigos_Tradu/xlLcAwAAQBAJ?hl=pt-BR&gbpv=1&dq=html+para+leigos&printsec=frontcover">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote> <!-- tem quebra de linha e espaçamento para a direita-->
+
+    <!-- Esse link não vai alterar nada, porem os mescânismos der busca do seu site vai saber que a frase citada está referênciando o livro que está disponível no endereço do link, mesmo que parcialmente -->
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. estou adorando!</p> <!-- A tag ABBR mostra o que a sigla que você usou significa, basta você colocar o significado da sigla no campo 'title' -->
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p> <!-- bdo ltr= desenverter texto ou texto normal, bdo rtl= inverter texto -->
+</body>
+</html>
