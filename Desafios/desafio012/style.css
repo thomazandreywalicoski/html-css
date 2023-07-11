@@ -24,20 +24,20 @@ html, body {
 
 
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 230px;
     background-image: linear-gradient(to right, #000000, #0000005a);
     color: #ffffff;
     text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 230px; */
 }
 
 header > h1 {
     font-family: var(--fonte-titulo);
     font-size: 7em;
-    padding: 0px;
+    padding-top: 50px;
     letter-spacing: 2px;
     font-variant: small-caps;
 }
@@ -45,7 +45,7 @@ header > h1 {
 header > p {
     font-family: var(--fonte-link);
     font-size: 1em;
-    padding: 0px;
+    padding-bottom: 50px;
 }
 
 a {
