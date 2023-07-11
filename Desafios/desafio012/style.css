@@ -16,7 +16,8 @@
     --fonte-link: Verdana, tahoma, sans-serif;
 }
 
-body {
+html, body {
+    min-width: 100vh;
     background-color: #ffffff;
     
 }
@@ -28,17 +29,17 @@ header {
     justify-content: center;
     align-items: center;
     height: 230px;
-    background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0.353));
+    background-image: linear-gradient(to right, #000000, #0000005a);
     color: #ffffff;
-    text-align: center; 
+    text-align: center;
 }
 
 header > h1 {
     font-family: var(--fonte-titulo);
-    font-size: 5em;
+    font-size: 7em;
     padding: 0px;
     letter-spacing: 2px;
-    text-transform: uppercase;
+    font-variant: small-caps;
 }
 
 header > p {
@@ -47,14 +48,10 @@ header > p {
     padding: 0px;
 }
 
-header > h1::first-letter {
-    font-size: 7rem;
-}
-
 a {
     text-decoration: none;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 a:hover {
