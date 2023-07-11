@@ -18,10 +18,8 @@
 
 html, body {
     min-width: 100vh;
-    background-color: #ffffff;
-    
+    background-color: #ffffff;   
 }
-
 
 header {
     background-image: linear-gradient(to right, #000000, #0000005a);
