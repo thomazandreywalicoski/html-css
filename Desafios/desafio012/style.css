@@ -34,7 +34,7 @@ header {
 
 header > h1 {
     font-family: var(--fonte-titulo);
-    font-size: 7em;
+    font-size: 10vw;
     padding-top: 50px;
     letter-spacing: 2px;
     font-variant: small-caps;
@@ -59,7 +59,7 @@ a:hover {
 section {
     padding: 6vh 0px 6vh 30px;
     line-height: 2em;
-    font-size: 3.5vh;
+    font-size: 3.5vw;
 }
 
 p {
@@ -75,7 +75,7 @@ p {
     background-color: #00000086;
     color: #ffffff;
     padding: 10px;
-    width: 430px;
+    display: inline-block
 }
 
 #img1 {
