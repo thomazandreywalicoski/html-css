@@ -17,7 +17,7 @@
 }
 
 html, body {
-    min-width: 100vh;
+    min-width: 100vh
     background-color: #ffffff;   
 }
 
@@ -42,7 +42,7 @@ header > h1 {
 
 header > p {
     font-family: var(--fonte-link);
-    font-size: 1em;
+    font-size: 2vw;
     padding-bottom: 50px;
 }
 
@@ -59,7 +59,7 @@ a:hover {
 section {
     padding: 6vh 0px 6vh 30px;
     line-height: 2em;
-    font-size: 3.5vh;
+    font-size: 3.5vw;
 }
 
 p {
@@ -68,18 +68,20 @@ p {
 }
 
 .paragrafo {
-    background-color: white;  
+    background-color: white;
 }
 
 .imagem > p {
-    background-color: #00000086;
+    display: inline-block;
+    background-color: #00000056;
     color: #ffffff;
     padding: 10px;
-    display: inline-block
+    text-shadow: 1px 1px 0px #000000; 
 }
 
 #img1 {
     background: url('imagens/background001.jpg') right center / cover no-repeat fixed;
+    box-shadow:  inset 6px 6px 13px #000000a3;
     /* background-image: url('imagens/background001.jpg');
     background-position: right center;
     background-size: cover;
@@ -89,6 +91,7 @@ p {
 
 #img2 {
     background: url('imagens/background002.jpg') right center / cover no-repeat fixed;
+    box-shadow:  inset 6px 6px 13px #000000a3;
     /* background-image: url('imagens/background002.jpg');
     background-position: right center;
     background-size: cover;
